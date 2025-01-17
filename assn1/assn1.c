@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 		int j = 0;
 
 		for(int i = 0; i < argc; i++) {
-			printf("Argument %d: %s\n", i, argv[i])
+			printf("Argument %d: %s\n", i, argv[i]);
 		}
 
 		printf("Number of arguments printed: %d", j);
