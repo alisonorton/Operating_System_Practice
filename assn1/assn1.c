@@ -26,7 +26,8 @@ int main(int argc, char *argv[]) {
 		}
 
 		printf("Number of arguments printed: %d", j);
-
+	// Rubric says "if there are no parameters entered, print an error 
+	// message and exit the program.
 	} else {
 		printf("Error: no user input\n");
 		return 0;
